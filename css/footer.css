@@ -1,0 +1,52 @@
+footer{
+    height: 234px;
+    background-color: #ffffff;
+
+}
+footer .wrapper{
+margin: auto;
+width: 1170px;
+position: relative;
+}
+span{
+    color: #e74c3c;
+}
+footer .wrapper p{padding-top: 50px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+}
+
+footer .images{
+    
+    position: absolute;
+    top: 130px;
+    left: 520px;
+
+}
+footer .images>img{
+    
+    padding-left: 10px;
+
+}
+ @media screen and (max-width:768px) {
+                        footer{
+                                height: 100%;
+                                clear: both;
+                                
+                            }
+                            footer .wrapper {
+                                width: 100%;
+                                text-align: center;
+                            }
+                            footer .images{
+                                position: static;
+                                display: block;
+                                padding-top: 20px;
+
+
+
+                            }
+                        }

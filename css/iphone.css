@@ -1,0 +1,136 @@
+ .iphone {
+            height: 1100px;
+            background-color: #fff;
+        }
+        
+        .iphone .wrapper {
+            width: 1170px;
+            position: relative;
+            margin: auto;
+            text-align: center;
+            
+        }
+        hr{
+            margin-top: 25px;
+        }
+        
+        .everything h2 {
+            color: #2c3d4f;
+            font-family: "PoiretOne";
+            font-weight: 400;
+            font-size: 48px;
+            margin-top: 111px;
+        }
+        
+        .everything p {
+            color: #999;
+            font-family: "Roboto";
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 39px;
+
+        }
+        .leftcontent {
+            float: left;
+            margin-top: 70px;
+        }
+        
+        .leftarticles {
+            display: block;
+            text-align: right;
+            
+            padding: 20px;
+        }
+        
+        .leftarticles h3 {
+            font-weight: 100;
+            color: #2c3e50; /* text color + color overlay */
+    font-family: "Roboto";
+    font-size: 24px;
+            margin-bottom: 39px;
+            font-weight: 100;
+        }
+        
+        .leftarticles p {
+            text-align: right;
+                color: #555; /* text color */
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+        }
+        
+        .phone {
+            position: absolute;
+            top: 170px;
+            left: 390px;
+            display: inline-block;
+        }
+        
+        .rightcontent {
+            float: right;
+            margin-top: 60px;
+            text-align: left;
+        }
+        
+        .rightarticles {
+            display: block;
+            text-align: left;
+            padding: 20px;
+            color: #555;
+             font-family: "Roboto";
+              font-size: 14px;
+        }
+        
+        .rightarticles h3 {
+            font-weight: 100;
+    color: #2c3e50; 
+    font-family: "Roboto";
+    font-size: 24px;
+            margin-bottom: 39px;
+
+        }
+        .rightarticles p{
+            text-align: left;
+        }
+        
+        @media screen and (max-width:768px) {
+                        .iphone {
+                                height: 100%;
+                            }
+                            .iphone .wrapper {
+                                width: 100%;
+                                text-align: center;
+
+                            }
+                            .phone{
+                                position: static;
+                                display: block;
+                                text-align: center;
+                            }
+                            .leftcontent{
+                                float: none;
+                                
+                            }
+                            .leftarticles p, h3{
+                                text-align: center;
+                            }
+                            .rightcontent{
+                                float: none;
+                                
+
+                            }
+
+                                
+                           
+                            .rightarticles p, h3{
+                                text-align: center;
+                            }
+
+                           
+                        }
+                        
+                        @media screen and (max-width:360px) {
+                           .phone img{
+                            max-width: 100%;
+                           }
+                        }

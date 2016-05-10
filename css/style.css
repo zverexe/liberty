@@ -1,0 +1,278 @@
+        @import url("header.css");
+        @import url("iphone.css");
+        @import url("features.css");
+        @import url("portfolio.css");
+        @import url("testimonials.css");
+        @import url("pricingpage.css");
+        @import url("team.css");
+        @import url("showcase.css");
+        @import url("form.css");
+@import url("footer.css");
+
+
+
+        html,
+        body,
+        div,
+        span,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+        
+        body {
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+            padding: 0px;
+        }
+        /* end of reset browser styles*/
+        
+        @font-face {
+            font-family: "PoiretOne";
+            src: url('../fonts/PoiretOne-Regular.ttf');
+            font-weight: 400;
+        }
+        
+        @font-face {
+            font-family: "Roboto";
+            src: url('../fonts/Roboto-Regular.ttf');
+            font-weight: 400;
+        }
+        
+        @font-face {
+            font-family: "Roboto";
+            src: url('../fonts/Roboto-Light.ttf');
+            font-weight: 100;
+        }
+        
+        @font-face {
+            font-family: "Roboto";
+            src: url('../fonts/Roboto-Bold.ttf');
+            font-weight: 700;
+        }
+        
+        
+       
+
+
+        /*iphone*/
+        
+       
+        /*features*/
+        
+        
+        /*portfolio*/
+        
+        
+        /*testimonials*/
+        
+        
+
+        /*pricimg page*/
+        .pricing_page {
+            height: 1100px;
+            background-color: #fff;
+        }
+        
+        .pricing_page .wrapper {
+            width: 1170px;
+            margin: auto;
+            font-family: "Roboto";
+        }
+        .price_text >h1{
+           color: #2c3d4f; 
+font-family: "Poiret One";
+font-weight: 400;
+font-size: 48px;
+text-align: center;
+padding-top: 109px;
+padding-bottom: 39px;
+text-transform: uppercase;
+        }
+        .price_text >p{
+            color: #555; 
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 400;
+
+        }
+        .pricing_table{
+            margin-top: 50px;
+            
+            }        
+        .prices {
+            display: inline-block;
+            margin-right: 11.5px;
+            margin-left: 11.5px;
+        }
+        
+        table {
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            width: 266px;
+             font-family: "Roboto";
+        }
+        
+        table th {
+            padding: 15px;
+
+        }
+        
+        table th p {
+            border-bottom: 1px solid #e5e5e5;
+            color: #555;
+            font-family: "Roboto";
+            font-weight: 400;
+            font-size: 16px;
+            padding-bottom: 20px;
+        }
+        
+        table th a {
+            height: 52px;
+            width: 105px;
+            background-color: #2c3e50;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 2px;
+            color: #fff;
+            padding: 15px 50px 15px 50px;
+        }
+        
+      .noborder{
+        border-bottom: none;
+      }
+        table:hover{
+            border-color: red;
+        }
+        .top
+        {
+            background-color: #f9f9f9;
+            
+        }
+        .top:hover{
+            background-color: red;
+        }
+        @media screen and (max-width:768px) {
+                        .pricing_page{
+                                height: 100%;
+                                clear: both;
+                                
+                                
+                            }
+                            .pricing_page .wrapper {
+                                width: 100%;
+                                
+                            }
+                            .pricing_table{
+                               
+                               vertical-align: center;
+
+
+                                text-align: center;
+                                margin-bottom: 20px;
+
+                            }
+                        }
+        
+
+        /*showcase*/
+        
+
+        /*team*/
+        
+
+/*form*/
+
+
+/*ffoter*/

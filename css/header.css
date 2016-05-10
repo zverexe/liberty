@@ -1,0 +1,67 @@
+ header {
+            height: 1038px;
+            font-family: "PoiretOne", arial, Times;
+            background-color: #2b3d4f;
+            text-align: center;
+        }
+        
+ header .wrapper {
+            width: 1170px;
+            position: relative;
+            margin: auto;
+        }
+        
+        .headtext {
+            padding-top: 52px;
+            font-size: 30px;
+            color: #fff;
+        }
+        
+        .headtext h2 {
+            margin-top: 115px;
+            margin-bottom: 93px;
+            
+            font-family: "PoiretOne";
+            font-weight: 400;
+        }
+        
+        .headtext a {
+            width: 230px;
+            height: 51px;
+            background-color: #e74c3c;
+            border-radius: 13px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+            padding: 20px 74px 20px 74px;
+            font-family: "Roboto";
+        }
+        
+        .scroll {
+            margin-top: 212px;
+            font-size: 14px;
+            font-family: "Roboto";
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+        
+        .scroll img {
+            margin-top: 31px;
+        }
+        @media screen and (max-width:768px) {
+                            header {
+                                height: auto;
+                            }
+                            header .wrapper {
+                                width: 100%;
+                            }
+                           
+                        }
+                        
+                        @media screen and (max-width:360px) {
+                           .headtext a {
+            width: 100%;
+            height: auto;
+            padding: 20px 54px 20px 54px;
+        }
+                        }
